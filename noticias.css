@@ -1,0 +1,146 @@
+body{
+          padding-top: 70px;
+       }
+        
+        .navbar {
+            background-color: #252525;
+            padding: 10px 5px; /* Ajusta el padding según el diseño deseado */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agrega una sombra para darle profundidad */
+        }
+
+        .navbar-brand, .navbar-nav .nav-link {
+            color: #fff;
+            transition: color 0.3s ease;
+        }
+
+        .navbar-nav a:hover, svg:hover {
+               text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Resplandor blanco */
+                filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)); /* Efecto de resplandor */
+        }
+
+        .logo {
+            width: 50px;
+            margin-right: 10px;
+             filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.7)); /* Efecto de resplandor blanco */
+            transition: filter 0.3s ease; /* Transición suave para el resplandor */
+        }
+
+        /* Efecto de resplandor para el texto del logo */
+            .navbar-brand {
+        text-shadow: 0 0 8px rgba(255, 255, 255, 0.7); /* Resplandor del texto */
+        }
+    
+    
+       .nav-item.dropdown:hover .dropdown-menu {
+        display: block; /* Muestra el menú desplegable */
+     }
+
+
+    .dropdown-menu {
+        background: #252525;
+        color: #fff;
+    top: 100%; /* Coloca el menú debajo del ícono */
+    right: 0; /* Alinea el menú a la izquierda del ícono */
+    width: auto; /* Ajusta el ancho del menú al contenido */
+    min-width: 150px; /* Establece un ancho mínimo */
+}
+
+/* Estilo adicional para los elementos del menú */
+.dropdown-menu .dropdown-item {
+    padding: 10px 15px; /* Ajusta el relleno de los elementos del menú */
+    color: #fff; /* Cambia el color del texto */
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #f8f9fa; /* Cambia el fondo del elemento al pasar el cursor */
+    color: #000;
+}
+
+
+
+
+
+.contenido .container {
+    background-color: #f9f9f9; /* Fondo claro y suave */
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.text-content h3 {
+    font-size: 1.5rem; /* Tamaño medio */
+    font-weight: bold; /* Negrita */
+    color: #333; /* Color negro o cercano */
+    margin-bottom: 10px;
+}
+
+.text-content p {
+    font-size: 1rem;
+    color: #666; /* Color más pálido que el negro */
+    margin-bottom: 20px;
+}
+
+.btn-outline-secondary {
+    border: 1px solid #ccc; /* Borde gris */
+    color: #333; /* Color del texto */
+    background-color: transparent; /* Sin color de fondo */
+}
+
+.btn-outline-secondary:hover {
+    background-color: #000; /* Fondo negro al pasar el cursor */
+    color: #fff; /* Texto blanco al pasar el cursor */
+    border-color: #000; /* Borde negro al pasar el cursor */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #1a1a1a; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+}
+
+footer h5 {
+    font-weight: bold;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+footer a {
+    text-decoration: none; /* Quita el subrayado */
+    color: #fff; /* Color del enlace */
+}
+
+footer a:hover {
+   text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Resplandor blanco */
+                filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)); /* Efecto de resplandor */
+}
+
+footer .bi {
+    transition: transform 0.2s; /* Transición suave para la escala */
+}
+
+footer .bi:hover {
+    transform: scale(1.2); /* Aumenta el tamaño del ícono al pasar el cursor */
+}
+
+.footer-bottom {
+    background-color: #000; /* Color de fondo más claro que el resto del footer */
+    color: #b3b3b3; /* Color de texto más claro */
+    padding-top: 10px; /* Espacio superior */
+    padding-bottom: 10px; /* Espacio inferior */
+}

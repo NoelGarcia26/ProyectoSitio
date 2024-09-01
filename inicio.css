@@ -1,0 +1,333 @@
+body{
+          padding-top: 70px;
+       }
+        
+        .navbar {
+            background-color: #252525;
+            padding: 10px 5px; /* Ajusta el padding según el diseño deseado */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agrega una sombra para darle profundidad */
+        }
+
+        .navbar-brand, .navbar-nav .nav-link {
+            color: #fff;
+            transition: color 0.3s ease;
+        }
+
+        .navbar-nav a:hover, svg:hover {
+               text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Resplandor blanco */
+                filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)); /* Efecto de resplandor */
+        }
+
+        .logo {
+            width: 50px;
+            margin-right: 10px;
+             filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.7)); /* Efecto de resplandor blanco */
+            transition: filter 0.3s ease; /* Transición suave para el resplandor */
+        }
+
+        /* Efecto de resplandor para el texto del logo */
+            .navbar-brand {
+        text-shadow: 0 0 8px rgba(255, 255, 255, 0.7); /* Resplandor del texto */
+        }
+    
+    
+       .nav-item.dropdown:hover .dropdown-menu {
+        display: block; /* Muestra el menú desplegable */
+     }
+
+
+    .dropdown-menu {
+        background: #252525;
+        color: #fff;
+    top: 100%; /* Coloca el menú debajo del ícono */
+    right: 0; /* Alinea el menú a la izquierda del ícono */
+    width: auto; /* Ajusta el ancho del menú al contenido */
+    min-width: 150px; /* Establece un ancho mínimo */
+}
+
+/* Estilo adicional para los elementos del menú */
+.dropdown-menu .dropdown-item {
+    padding: 10px 15px; /* Ajusta el relleno de los elementos del menú */
+    color: #fff; /* Cambia el color del texto */
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #f8f9fa; /* Cambia el fondo del elemento al pasar el cursor */
+    color: #000;
+}
+
+
+
+        .header-title {
+            color: #00ea10;
+            font-size: 2.5rem;
+        }
+
+       .split-screen {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+.full-image {
+    width: 100%;
+    height: 100%;
+    background-image: url('Img/auto1.jpg'); /* Reemplaza con la imagen que desees */
+    background-size: cover;
+    background-position: center;
+    filter: brightness(40%);
+    position: absolute;
+    z-index: 1;
+}
+
+.text-container {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: white;
+}
+
+.text-container h1 {
+    font-size: 5.5rem;
+    margin: 0;
+}
+
+.text-container h2 {
+    font-size: 2.3rem;
+    margin: 0;
+    text-transform: uppercase;
+    color: #d7d7d7;
+}
+
+        .white-background-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #fff;
+            color: #000;
+            width: 100vw;
+            height: 60vh;
+            box-sizing: border-box;
+        }
+
+        .column {
+            flex: 1;
+            margin: 0 10px;
+        }
+
+        .main-title {
+            font-size: 4rem;
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        .sub-text {
+            font-size: 2rem;
+            color: #6c757d;
+            margin: 10px 0 0;
+        }
+
+        .image-content img {
+            width: 100%;
+            height: auto;
+        }
+
+        .background-image-container {
+            position: relative;
+            width: 100vw;
+            height: 60vh;
+            background-image: url('Img/Imgfondo.png');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .text-overlay {
+            position: absolute;
+            left: 20px;
+            color: #fff;
+        }
+
+        .large-text {
+            font-size: 5rem;
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        .texto{
+            text-align: justify;
+            font-family: arial;
+        }
+
+
+          /* Estilos para los círculos con imágenes de fondo */
+        .circle {
+            width: 220px;  /* Tamaño mediano */
+            height: 220px;
+            border-radius: 50%;
+            background-size: cover;
+            background-position: center;
+            margin: 20px auto; /* Centramos cada círculo en su contenedor */
+        }
+
+        .circle1 {
+            background-image: url('Img/tesla.jpeg'); /* Reemplaza con la ruta de tu imagen */
+        }
+
+        .circle2 {
+            background-image: url('Img/mustang.webp'); /* Reemplaza con la ruta de tu imagen */
+        }
+
+        .circle3 {
+            background-image: url('Img/corvette.webp'); /* Reemplaza con la ruta de tu imagen */
+        }
+
+         .circle3 {
+            background-image: url('Img/corvette.webp'); /* Reemplaza con la ruta de tu imagen */
+        }
+
+        .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.column-style {
+    background-color: #f4f4f9;
+    padding: 30px; /* Espaciado interno */
+    margin-bottom: 20px; /* Espaciado inferior */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+    border-left: 5px solid #007bff; /* Borde decorativo en el lado izquierdo */
+}
+
+.column-style:hover {
+    transform: translateY(-10px); /* Efecto de elevación al pasar el ratón */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15); /* Aumenta la sombra al pasar el ratón */
+}
+
+.column-style2 {
+    background-color: #f4f4f9;
+    padding: 30px; /* Espaciado interno */
+    margin-bottom: 20px; /* Espaciado inferior */
+    margin-left: ;
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+    border-left: 5px solid #007bff; /* Borde decorativo en el lado izquierdo */
+}
+
+.column-style2:hover {
+    transform: translateY(-10px); /* Efecto de elevación al pasar el ratón */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15); /* Aumenta la sombra al pasar el ratón */
+}
+
+.title {
+    font-size: 2 rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.texto {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #666666;
+}
+
+
+.single-column {
+  background-color: #f4f4f9; 
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 5px 0 15px rgba(0, 0, 255, 0.2); /* Sombra en el lado derecho */
+}
+
+.text-justify {
+  text-align: justify; /* Justificar el texto */
+}
+
+.circle-icon {
+  display: inline-flex; /* Para centrar el contenido del círculo */
+  align-items: center;  /* Alinea verticalmente el SVG */
+  justify-content: center; /* Alinea horizontalmente el SVG */
+  width: 50px; /* Tamaño del círculo */
+  height: 50px; /* Tamaño del círculo */
+  border-radius: 50%; /* Hace que el borde sea circular */
+  text-decoration: none; /* Quita subrayado */
+  color: #000; /* Color del icono */
+}
+
+.circle-icon:hover {
+  color: #fff; /* Cambia el color del icono (opcional) */
+  background: #dfdfdf;
+}
+
+.circle-icon2 {
+  display: inline-flex; /* Para centrar el contenido del círculo */
+  align-items: center;  /* Alinea verticalmente el SVG */
+  justify-content: center; /* Alinea horizontalmente el SVG */
+  width: 50px; /* Tamaño del círculo */
+  height: 50px; /* Tamaño del círculo */
+  border-radius: 50%; /* Hace que el borde sea circular */
+  text-decoration: none; /* Quita subrayado */
+  color: #fff; /* Color del icono */
+  transition: background-color 0.3s, color 0.3s; /* Transición suave para el fondo y el color */
+}
+
+.circle-icon2:hover {
+  background-color: #f0f0f0; /* Fondo gris al pasar el cursor */
+  color: #000; /* Cambia el color del icono (opcional) */
+}
+
+
+
+footer {
+    background-color: #1a1a1a; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+}
+
+footer h5 {
+    font-weight: bold;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+footer a {
+    text-decoration: none; /* Quita el subrayado */
+    color: #fff; /* Color del enlace */
+}
+
+footer a:hover {
+   text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Resplandor blanco */
+                filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)); /* Efecto de resplandor */
+}
+
+footer .bi {
+    transition: transform 0.2s; /* Transición suave para la escala */
+}
+
+footer .bi:hover {
+    transform: scale(1.2); /* Aumenta el tamaño del ícono al pasar el cursor */
+}
+
+.footer-bottom {
+    background-color: #000; /* Color de fondo más claro que el resto del footer */
+    color: #b3b3b3; /* Color de texto más claro */
+    padding-top: 10px; /* Espacio superior */
+    padding-bottom: 10px; /* Espacio inferior */
+}

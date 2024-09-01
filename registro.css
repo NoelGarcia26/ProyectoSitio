@@ -1,0 +1,183 @@
+body{
+        padding-top: 70px;
+        background: linear-gradient(135deg, #f0f2f5, #e2e4e9); /* Fondo degradado suave */
+   		 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+        
+        .navbar {
+            background-color: #252525;
+            padding: 10px 5px; /* Ajusta el padding según el diseño deseado */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agrega una sombra para darle profundidad */
+        }
+
+        .navbar-brand, .navbar-nav .nav-link {
+            color: #fff;
+            transition: color 0.3s ease;
+        }
+
+        .navbar-nav a:hover, svg:hover {
+               text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Resplandor blanco */
+                filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)); /* Efecto de resplandor */
+        }
+
+        .logo {
+            width: 50px;
+            margin-right: 10px;
+             filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.7)); /* Efecto de resplandor blanco */
+            transition: filter 0.3s ease; /* Transición suave para el resplandor */
+        }
+
+        /* Efecto de resplandor para el texto del logo */
+            .navbar-brand {
+        text-shadow: 0 0 8px rgba(255, 255, 255, 0.7); /* Resplandor del texto */
+        }
+    
+    
+       .nav-item.dropdown:hover .dropdown-menu {
+        display: block; /* Muestra el menú desplegable */
+     }
+
+
+    .dropdown-menu {
+        background: #252525;
+        color: #fff;
+    top: 100%; /* Coloca el menú debajo del ícono */
+    right: 0; /* Alinea el menú a la izquierda del ícono */
+    width: auto; /* Ajusta el ancho del menú al contenido */
+    min-width: 150px; /* Establece un ancho mínimo */
+}
+
+/* Estilo adicional para los elementos del menú */
+.dropdown-menu .dropdown-item {
+    padding: 10px 15px; /* Ajusta el relleno de los elementos del menú */
+    color: #fff; /* Cambia el color del texto */
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #f8f9fa; /* Cambia el fondo del elemento al pasar el cursor */
+    color: #000;
+}
+
+
+
+
+
+
+
+
+.register-form {
+    width: 100%;
+    max-width: 550px; /* Ancho máximo del formulario de registro */
+    background-color: #ffffff; /* Fondo blanco para el formulario */
+    border-radius: 12px; /* Bordes redondeados */
+    padding: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Sombra para el formulario */
+    margin-top: 20px; /* Espacio adicional superior */
+}
+
+.register-form h1 {
+    color: #333333; /* Color del texto del título */
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.input-group-text {
+    border: none;
+    border-right: 1px solid #ddd; /* Borde gris claro entre el ícono y el campo de entrada */
+}
+
+.form-control {
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 0 8px 8px 0; /* Bordes redondeados solo en la derecha */
+    padding: 10px;
+    box-shadow: none; /* Sin sombra para los campos */
+    transition: all 0.3s ease; /* Transición suave para el hover */
+}
+
+.form-control:focus {
+    border-color: #007bff; /* Color de borde al enfocar */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.25); /* Efecto de sombra al enfocar */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Color de fondo del botón */
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease; /* Transición suave para el hover */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Color de fondo del botón al pasar el cursor */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada al pasar el cursor */
+}
+
+.link-secondary {
+    font-size: 14px;
+    transition: color 0.3s ease; /* Transición suave para el hover */
+}
+
+.link-secondary:hover {
+    color: #0056b3; /* Color de enlace al pasar el cursor */
+    text-decoration: underline; /* Subrayado al pasar el cursor */
+}
+
+.shadow-lg {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2) !important; /* Sombra más pronunciada para el formulario */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #1a1a1a; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+}
+
+footer h5 {
+    font-weight: bold;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+footer a {
+    text-decoration: none; /* Quita el subrayado */
+    color: #fff; /* Color del enlace */
+}
+
+footer a:hover {
+   text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Resplandor blanco */
+                filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)); /* Efecto de resplandor */
+}
+
+footer .bi {
+    transition: transform 0.2s; /* Transición suave para la escala */
+}
+
+footer .bi:hover {
+    transform: scale(1.2); /* Aumenta el tamaño del ícono al pasar el cursor */
+}
+
+.footer-bottom {
+    background-color: #000; /* Color de fondo más claro que el resto del footer */
+    color: #b3b3b3; /* Color de texto más claro */
+    padding-top: 10px; /* Espacio superior */
+    padding-bottom: 10px; /* Espacio inferior */
+}

@@ -58,8 +58,6 @@ body{
 
 
 
-
-
 .contenido .container {
   padding: 30px;
   background-color: #f0f0f0; /* Fondo claro */
@@ -72,28 +70,39 @@ body{
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  width: 500px; /* Ancho ajustado para ser más amplio */
+  height: 450px; /* Alto fijo para el contenedor */
+  overflow: hidden; /* Esconde el contenido que se desborda */
+  display: flex; /* Flexbox para alinear contenido */
+  flex-direction: column; /* Alinear elementos verticalmente */
+  align-items: center; /* Centrar elementos horizontalmente */
+  justify-content: space-between; /* Espaciar el contenido */
 }
 
 .title {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #333; /* Color oscuro para el título */
-  margin-bottom: 15px;
+  color: #320000; /* Color oscuro para el título */
+  margin-bottom: 10px; /* Margen inferior reducido */
 }
 
 .text-justify {
   font-size: 1rem;
   color: #666; /* Color de texto más claro */
   text-align: justify; /* Justificación del texto */
+  max-height: 150px; /* Altura máxima para el texto */
+  overflow: hidden; /* Esconde el contenido que se desborda */
 }
 
 .fixed-size-img {
   width: 100%;
-  max-width: 320px; /* Tamaño máximo fijo para la imagen */
-  height: 200px;
+  max-width: 450px; /* Ajustar tamaño máximo para coincidir con el nuevo ancho del contenedor */
+  height: 200px; /* Altura fija para la imagen */
   border-radius: 8px;
-  margin-top: 15px;
+  object-fit: cover; /* Ajusta la imagen para que cubra el área sin distorsión */
+  margin-top: 10px; /* Margen superior */
 }
+
 
 
 

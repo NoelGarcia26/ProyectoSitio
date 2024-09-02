@@ -68,6 +68,10 @@ body{
     border-radius: 8px;
 }
 
+.text-centerr{
+    text-align: justify;
+}
+
 .content-box {
     background-color: #ffffff; /* Fondo blanco para el contenedor del texto */
     padding: 20px;
@@ -78,7 +82,7 @@ body{
 
 .content-box h2 {
     font-size: 2rem;
-    color: #333; /* Color del texto del título */
+    color: #320000; /* Color del texto del título */
     margin-bottom: 15px;
 }
 
